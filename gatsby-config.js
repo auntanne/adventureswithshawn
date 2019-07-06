@@ -75,5 +75,17 @@ module.exports = {
       },
     },
     `gatsby-plugin-netlify-cms`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Barriecito`,
+          `Caveat` 
+        ],
+        display: 'swap'
+      }
+    },
+    `gatsby-plugin-sass`,
+
   ],
 }
