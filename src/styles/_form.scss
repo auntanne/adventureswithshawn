@@ -1,0 +1,32 @@
+form.aws-form{
+  .field{
+    span{
+      display:inline-block;
+      margin-left:10px;
+      color: gray;
+    }
+    .input,
+    .textarea{
+      width: 500px;
+      max-width: 90%;
+    }
+    ::placeholder {
+      color:red;
+      opacity: .5
+    }
+
+  }
+  .label{
+    font-size: 1.5em;
+    line-height: normal;
+  }
+  .fieldset {
+    padding:10px;
+    border:2px dashed orange;
+    legend{
+      font-size: 2em;
+      padding-right:10px;
+    }
+
+  }
+}
