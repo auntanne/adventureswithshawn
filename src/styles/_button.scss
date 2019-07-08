@@ -1,10 +1,13 @@
-.button {
-  font-family: 'Barriecito', cursive;
+.button,
+.button.is-link {
+  // font-family: 'Barriecito', cursive;
   background-color: $aws-rust;
-  color: $aws-spruceblue;
+  color: white;
   cursor: pointer;
   font-weight: 700;
+  font-size: 1em;
   padding: .5rem 1rem;
+  height: auto;
   text-transform: uppercase;
   transition: all 0.4s ease;
   &:hover {

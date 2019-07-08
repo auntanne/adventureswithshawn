@@ -41,7 +41,7 @@ export default class Index extends React.Component {
           <div className="container">
             <div className="content">
               <h1>Oh hey! Just some things we need to know before you get here...</h1>
-              <form class="aws-form"
+              <form className="aws-form"
                 name="contact"
                 method="post"
                 action="/contact/thanks/"
@@ -57,7 +57,7 @@ export default class Index extends React.Component {
                     <input name="bot-field" onChange={this.handleChange} />
                   </label>
                 </div>
-                <fieldset class="fieldset">
+                <fieldset className="fieldset">
                   <legend>Your info</legend>
                   <div className="field">
                     <label className="label" htmlFor={'name'}>
@@ -69,7 +69,7 @@ export default class Index extends React.Component {
                         className="input"
                         type={'text'}
                         name={'name'}
-                        placeholder={'Shawn the Great'}
+                        placeholder={'Rocketman'}
                         onChange={this.handleChange}
                         id={'name'}
                         required={true}
@@ -110,7 +110,7 @@ export default class Index extends React.Component {
                     </div>
                   </div>
                 </fieldset>
-                <fieldset class="fieldset">
+                <fieldset className="fieldset">
                   <legend>Emergency contacts</legend>
                   <div className="field">
                     <label className="label" htmlFor={'ename1'}>
@@ -213,7 +213,7 @@ export default class Index extends React.Component {
                     </div>
                   </div>
                 </fieldset>
-                <fieldset class="fieldset">
+                <fieldset className="fieldset">
                   <legend>Medical Stuff</legend>
                   <div className="field">
                     <label className="label" htmlFor={'allergies'}>
@@ -265,7 +265,7 @@ export default class Index extends React.Component {
                     </div>
                   </div>
                 </fieldset>
-                <fieldset class="fieldset">
+                <fieldset className="fieldset">
                   <legend>Preferences</legend>
                   <div className="field">
                     <label className="label" htmlFor={'goodfood'}>
@@ -346,6 +346,22 @@ export default class Index extends React.Component {
                       />
                     </div>
                   </div>
+                  <div className="field">
+                    <label className="label" htmlFor={'onething'}>
+                      One thing you feel like you must do or see while you are here so the whole trip isn't a waste
+                    </label>
+                    <div className="control">
+                      <input
+                        className="input"
+                        type={'text'}
+                        name={'onething'}
+                        placeholder={'See the Mariners win a game ☉_☉'}
+                        onChange={this.handleChange}
+                        id={'onething'}
+                        required={true}
+                      />
+                    </div>
+                  </div>
                 </fieldset>
                 <div className="field">
                   <label className="label" htmlFor={'message'}>
@@ -363,7 +379,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <button className="button is-link" type="submit">
-                    Do it!
+                    Go!
                   </button>
                 </div>
               </form>

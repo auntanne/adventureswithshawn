@@ -3,6 +3,15 @@ body{
   font-size:x-large;
   color:$aws-spruceblue;
 }
+button, input, select, textarea{
+  font-family: 'Caveat', cursive;
+}
 h1{
   font-family: 'Barriecito', cursive;
+}
+
+.content{
+  h1, h2, h3, h4, h5, h6{
+    color:$aws-spruceblue;
+  }
 }

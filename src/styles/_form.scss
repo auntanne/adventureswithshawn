@@ -9,8 +9,11 @@ form.aws-form{
     .textarea{
       width: 500px;
       max-width: 90%;
+      min-width: 200px;
       background-color: transparent;
       color:$aws-treegreen;
+      box-shadow: none;
+      font-size: 1.5em;
     }
     .input{
       border: none;
@@ -30,11 +33,16 @@ form.aws-form{
   }
   .label{
     font-size: 1.5em;
+    font-weight: 400;
     line-height: normal;
+    color:$aws-spruceblue;
+    display:inline-block;
+    margin-bottom: 0;
   }
   .fieldset {
     padding:10px;
     border:2px dashed $aws-rust;
+    margin-bottom: 20px;
     legend{
       font-size: 2em;
       padding-right:10px;
