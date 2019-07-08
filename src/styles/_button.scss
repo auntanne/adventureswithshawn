@@ -1,13 +1,13 @@
 .button {
   font-family: 'Barriecito', cursive;
-  background-color: rgba(rebeccapurple, 0.7);
-  color: white;
+  background-color: $aws-rust;
+  color: $aws-spruceblue;
   cursor: pointer;
   font-weight: 700;
-  padding: 1rem;
+  padding: .5rem 1rem;
   text-transform: uppercase;
   transition: all 0.4s ease;
   &:hover {
-    background-color: rgba(rebeccapurple, 0.9);
+    background-color: rgba($aws-rust, 0.9);
   }
 }
