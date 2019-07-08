@@ -8,6 +8,7 @@ import { rhythm } from "../utils/typography"
 import Button from '../components/button'
 
 class BlogIndex extends React.Component {
+
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -15,31 +16,27 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
-        <Button buttonText="Click me" />
-        <Bio />
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </div>
-          )
-        })}
+      <form name="contact" method="POST" data-netlify="true">
+<p>
+  <label>Your Name: <input type="text" name="name" /></label>
+</p>
+<p>
+  <label>Your Email: <input type="email" name="email" /></label>
+</p>
+<p>
+  <label>Your Role: <select name="role[]" multiple>
+    <option value="leader">Leader</option>
+    <option value="follower">Follower</option>
+  </select></label>
+</p>
+<p>
+  <label>Message: <textarea name="message"></textarea></label>
+</p>
+<p>
+  <button type="submit">Send</button>
+</p>
+</form>
+
       </Layout>
     )
   }
