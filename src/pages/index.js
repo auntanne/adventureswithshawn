@@ -63,7 +63,7 @@ export default class Index extends React.Component {
                     <label className="label" htmlFor={'name'}>
                       Name
                     </label>
-                    <span>whatever you want us to call you when you are here</span>
+                    <span>that you want us to call you when you are here</span>
                     <div className="control">
                       <input
                         className="input"
@@ -116,7 +116,7 @@ export default class Index extends React.Component {
                     <label className="label" htmlFor={'ename1'}>
                       Name
                     </label>
-                    <span>First person we should call in case you are abducted by aliens</span>
+                    <span>of first person we should call in case you are abducted by aliens</span>
                     <div className="control">
                       <input
                         className="input"
@@ -166,7 +166,7 @@ export default class Index extends React.Component {
                     <label className="label" htmlFor={'ename2'}>
                       Name
                     </label>
-                    <span>Second person we should call in case you are abducted by aliens</span>
+                    <span>of second person we should call in case you are abducted by aliens</span>
                     <div className="control">
                       <input
                         className="input"
@@ -275,7 +275,7 @@ export default class Index extends React.Component {
                     <textarea
                       className="textarea"
                       name={'goodfood'}
-                      placeholder={'Hard labor'}
+                      placeholder={'Squidlips'}
                       onChange={this.handleChange}
                       id={'goodfood'}
                       required={true}
@@ -291,7 +291,7 @@ export default class Index extends React.Component {
                     <textarea
                       className="textarea"
                       name={'meds'}
-                      placeholder={'m&ms'}
+                      placeholder={'smores'}
                       onChange={this.handleChange}
                       id={'meds'}
                       required={true}
@@ -349,7 +349,7 @@ export default class Index extends React.Component {
                 </fieldset>
                 <div className="field">
                   <label className="label" htmlFor={'message'}>
-                    Anything else you thing we should know to make your week enjoyable, or just in general?
+                    Anything else you think we should know to make your week enjoyable, or just in general?
                   </label>
                   <div className="control">
                     <textarea
