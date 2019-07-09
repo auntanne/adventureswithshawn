@@ -7,9 +7,6 @@ form.aws-form{
     }
     .input,
     .textarea{
-      width: 500px;
-      max-width: 90%;
-      min-width: 200px;
       background-color: transparent;
       color:$aws-treegreen;
       box-shadow: none;
@@ -40,7 +37,7 @@ form.aws-form{
     margin-bottom: 0;
   }
   .fieldset {
-    padding:10px;
+    padding:2rem;
     border:2px dashed $aws-rust;
     margin-bottom: 20px;
     legend{
