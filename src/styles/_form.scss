@@ -4,6 +4,7 @@ form.aws-form{
       display:inline-block;
       margin-left:10px;
       color: gray;
+      line-height: 1;
     }
     .input,
     .textarea{
@@ -31,7 +32,7 @@ form.aws-form{
   .label{
     font-size: 1.5em;
     font-weight: 400;
-    line-height: normal;
+    line-height: 1;
     color:$aws-spruceblue;
     display:inline-block;
     margin-bottom: 0;
@@ -43,6 +44,7 @@ form.aws-form{
     legend{
       font-size: 2em;
       padding-right:10px;
+      line-height:1;
     }
 
   }
