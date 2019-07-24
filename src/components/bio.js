@@ -54,7 +54,7 @@ const Bio = () => {
         }}
       />
       <p>
-        Created by <strong>{author}</strong> who lives and plays in Silverdale doing fun stuff.
+        Created by <strong>{author}</strong> who sleeps and plays in Silverdale and can't wait for ShawnBoi to get here.
         {` `}
         <a href={`https://instagram.com/${social.instagram}`}>
           You should follow her on Instagram
