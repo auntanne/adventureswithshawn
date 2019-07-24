@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from "gatsby"
 import { navigate } from 'gatsby-link'
-import Layout from '../components/layout'
+import Layout from '../../components/layout'
 
 function encode(data) {
   return Object.keys(data)
