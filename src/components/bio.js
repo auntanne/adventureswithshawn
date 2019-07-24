@@ -25,7 +25,7 @@ const Bio = () => {
         siteMetadata {
           author
           social {
-            twitter
+            instagram
           }
         }
       }
@@ -54,11 +54,10 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
+        Created by <strong>{author}</strong> who lives and plays in Silverdale doing fun stuff.
         {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+        <a href={`https://instagram.com/${social.instagram}`}>
+          You should follow her on Instagram
         </a>
       </p>
     </div>

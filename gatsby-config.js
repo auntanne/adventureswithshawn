@@ -5,7 +5,7 @@ module.exports = {
     description: `Chronicling the adventures of Shawn.`,
     siteUrl: `https://reverent-shannon-cf51de.netlify.com/`,
     social: {
-      twitter: ``,
+      instagram: `ppepperpot`,
     },
   },
   plugins: [
@@ -80,7 +80,7 @@ module.exports = {
       options: {
         fonts: [
           `Barriecito`,
-          `Caveat` 
+          `Caveat`
         ],
         display: 'swap'
       }
